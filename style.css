@@ -1,0 +1,191 @@
+/*brand-navbar*/
+.navbar {
+    padding:0px auto;
+    height:40px;
+}
+.navbar-brand {
+    line-height: inherit;
+    padding-top:12px;
+}
+.fourImportantElements {
+    padding-right: 2%;
+}
+.navbarItem-list1 {
+    font-size: 13px;
+    color: #111;
+    line-height: 3px;
+}
+:hover.navbarItam-list1 {
+    color:blue;
+}
+.dash {
+    font-size: 12px;
+}
+.dropdown-name:hover .dropdown-menu {
+    display: block;
+}
+.headermenu-dropdown-item {
+    font-size: inherit;
+    line-height: 20px;
+}
+/*main-Navbar*/
+.dropdown-menu {
+    text-align: center;
+    position: relative;
+}
+.mainNavbar {
+    display: flex;
+    justify-content: space-around;
+}
+.mainNavbar-item {
+    flex-direction: row;
+    line-height: 60px;
+}
+.brandSvg:hover {
+    opacity: 40%;
+}
+.mainNavbar-menu {
+    display: flex;
+}
+.dropdown-menu .mainContainer-inMainMenu {
+    background-color: white;
+    position: absolute;
+    display: flex;
+}
+.mainNavbar-menuItems {
+    list-style-type:none;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+}
+.links {
+    text-decoration: none;
+    color:#111;
+    font-size:18px;
+    padding:0px 15px;
+}
+.container1 {
+    display:flex;
+    justify-content: space-around;
+}
+.items {
+    flex-direction: row;
+}
+.searchInput {
+    width:200px;
+    height:40px;
+    border-radius: 30px;
+    border:none;
+    background-color: rgb(175, 175, 175);
+}
+.itemsInList-mainNavbar {
+    list-style-type: none;
+    font-size: 16px;
+    padding:0px 0px !important;
+}
+.container-inMainMenu {
+    flex-direction: row;
+}
+/*slider 1*/
+/*video*/
+.nikeVideo {
+    width:96% !important;
+    height:786px !important;
+    position: relative !important;
+}
+/*first-text*/
+.one-word {
+    color: black;
+    padding-top:50px;
+}
+.nikeAirMaxPluse-button {
+    display: flex;
+    padding:15px 42%;
+}
+.nikeAirMaxPluse-item:hover {
+    cursor: pointer;
+}
+.nikeAirMaxPluse-item {
+    padding: 0px 10px;
+}
+/*second-slider*/
+.secondSlider-controls {
+    padding:0px 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.secondslider-item {
+    flex-direction: row;
+    margin:0 -30px;
+}
+.secondSlider-word {
+    padding:15px 0px;
+}
+.slidercontroler {
+    font-size: 16px;
+    width:50px;
+    height:50px;
+    border: radius 50%;
+}
+.controler {
+    color:black !important;
+    width:50px;
+    height:50px;
+    font-size: 30px;
+    border-radius: 50%;
+    border:none;
+    line-height: 0px;
+    &:hover {
+        opacity: 40%;
+    }
+}
+.sliderItem-cards {
+    border: 0px solid white !important;
+    padding:0px 0px !important;
+}
+.sliderProduct {
+    display: flex;
+}
+.itemsInSlider {
+    flex-direction: row;
+}
+.productName {
+    text-align: left;
+    padding: 0px 0px;
+}
+.maleOrFemale {
+    text-align: left;
+    font-size: 16px;
+}
+.productPrice {
+    text-align: right;
+    padding-left: 220px;
+}
+/*mine-code*/
+/*Featured-section*/
+.featured-word1 {
+    padding:20px 0px;
+}
+.featured-item {
+    padding-left: 4%;
+}
+/*second-text*/
+.head-feeling-of-running {
+    padding-top:55px;
+    padding-bottom: 15px;
+}
+.motivational-button {
+    padding:20px 0px;
+}
+.button-m {
+    min-width: max-content;
+    padding:8px 15px;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+} 
+:hover.button-m {
+    opacity: 50%;
+}
